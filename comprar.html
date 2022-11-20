@@ -2,6 +2,11 @@
 <html>
 <head>
     <title>Página de compra</title>
+    <style>
+      table, th, td {
+        border: 1px solid black;
+      }
+    </style>
 </head>
 <body>
   <header>
@@ -24,24 +29,92 @@
   </header>
   <main>
     <section>
-      <div>
-        <img src="" alt="">
-        <img src="" alt="">
-        <h2>Sucursal Puebla</h2>
-      </div>
-      <div>
-        <img src="" alt="">
-        <img src="" alt="">
-        <h2>Sucursal Puebla</h2>
-      </div>
+    <table style="width: 500px;">
+      <thead>
+        <tr>
+         <th>Producto</th>
+         <th>Precio</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Metzli</td>
+          <td>$490</td>
+        </tr>
+        <tr>
+          <td>Jogger</td>
+          <td>$250</td>
+        </tr>
+        <tr>
+          <td>Bruja</td>
+          <td>$750</td>
+        </tr>
+        <tr>
+          <td>Vaiven</td>
+          <td>$800</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <td>Loretto</td>
+        <td>$780</td>
+      </tfoot>
+    </table>
     </section>
-    <aside>
-      <img src="images/logop.jpg" alt="logo">
-    </aside>
+    <section>
+      <aside>
+      <div>
+    <ol>
+      <li>Loretto</li>
+      <li>Vaiven</li>
+      <li>Jogger</li>
+      <li>
+        <ol>
+          <li style="list-style-type: lower-roman;">Jogger primavera</li>
+          <li style="list-style-type: lower-roman;">Jogger floral</li>
+        </ol>
+      </li>
+      <li>Meztli</li>
+      <li>
+        <ol>
+          <li style="list-style-type: lower-roman;">Meztli nieve</li>
+          <li style="list-style-type: lower-roman;">Meztli spiderman</li>
+          <li style="list-style-type: lower-roman;">Meztli calaveras</li>
+        </ol>
+      </li>
+    </ol>
+      </div>
+        <div>
+          <p>¿Qué quieres pedirnos?</p>
+          <select name="Productos">
+            <option value="Meztli">Meztli</option>
+            <option value="Jogger">Jogger</option>
+            <option value="Loretto">Loretto</option>
+          </select>
+        </div>
+        <div>
+          <h3>Tipo de pedido</h3>
+          <label for="">Retiro en local</label>
+          <input type="radio" name="Tipo de pedido" value="">
+          <label for="">Delivery</label>
+          <input type="radio" name="Tipo de pedido" value="">
+        </div>
+        <div>
+          <label for="">Peso</label>
+          <input type="checkbox" name="" value="">
+          <label for="">Moneda argentina</label>
+          <input type="checkbox" name="" value="">
+        </div>
+      <div>
+        <h2>Proucto 1</h2>
+        <img src="https://www.mulza.mx/img/stores/7c315397c785.jpg" alt="Producto1" width="400">
+      </div>
+        <div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120695.57902845531!2d-98.32238315790275!3d19.031314203326612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85cfc0e701256daf%3A0x16e1264ddfc3cc2!2sPanam%20Puebla!5e0!3m2!1ses!2smx!4v1668977742255!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+        </div>
+      </aside>
+    </section>
   </main>
-    <h1>How to make a website</h1>
-    <p>Hello world</p>
-    <img src="images/logop.jpg" alt="logo">
 </body>
 
 </html>
