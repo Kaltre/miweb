@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+body {
+  margin: 0;
+  font-size:12 pt;
+  color: black;
+  background-color: #68B984;
+}
+
+h1 {
+  color: #CFFDE1;
+  border: 5px black;
+  border-style: solid;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  color: #CFFDE1;
+  border: 5px black;
+  border-style: solid;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+h5 {
+  font-size: 1.25rem;
+  text-align: center;
+  font-weight: normal;
+}
+
+h6 {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: normal;
+}
+
+p {
+  text-align: right;
+}
+
+.seccionH1 {
+  background-color: #3D5656;
+  border: 2px solid #68B984;
+  text-align: justify;
+}
+
+.titulosH2 {
+  background-color: #3D5656;
+}
+
+.barraNav {
+  text-align: right;
+}
+
+.imagenes {
+  text-align: center;
+}
+
+#quienesSomos {
+  font-size: 22px;
+}
+
+#footerIndex {
+  background-color: #3D5656;
+}
+
+#descripcionPanam {
+  text-align: justify;
+}
+/*Definir paleta de colores de la página*/

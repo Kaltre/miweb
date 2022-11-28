@@ -3,17 +3,24 @@
 
 <head>
     <title>Panam clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-  <h1>Página principal</h1>
+  <section class="seccionH1">
+    <h1>Página principal</h1>
+  </section>
   <header>
-    <nav>
+    <nav class="barraNav">
       <ul>
         <li>
           <a href="index.html">Inicio</a>
         </li>
         <li>
-          <a href="quienes-somos.html">¿Quiénes somos?</a>
+          <a id="quienesSomos" href="quienes-somos.html">¿Quiénes somos?</a>
         </li>
         <li>
           <a href="comprar.html">Comprar</a>
@@ -25,26 +32,33 @@
     </nav>
   </header>
   <main>
-    <img src="images/logop.jpg" alt="logo" width="400">
-    <h1>Panam</h1>
-    <p>Panam es una marca mexicana fabricante de una amplia gama de calzado, tenis y
+    <div>
+      <img src="images/logop.jpg" alt="logo" width="400" class="imagenes">
+    </div>
+    <h2 class="titulosH2">Panam</h2>
+    <p id="descripcionPanam">Panam es una marca mexicana fabricante de una amplia gama de calzado, tenis y
 zapatos deportivos con diversos diseños para satisfacer a todo tipo de clientes desde la
 línea infantil hasta ediciones especiales, que promueven el ámbito cultural y las
 tradiciones de nuestro país, a un precio muy accesible y que está elaborado con telas e
 hilos de proveedores nacionales con lo que favorece la fluidez del mercado nacional.</p>
     <section>
       <div>
-        <h2>Sucursal Puebla</h2>
-        <img src="images/sucursal.jpg" alt="sucursal" width="400">
+        <h2 class="titulosH2">Sucursal Puebla</h2>
+        <img src="images/sucursal.jpg" alt="sucursal" width="400" class="imagenes">
       </div>
       <div>
-        <h2>Mapa de tiendas</h2>
-        <img src="images/mapa_tiendas.png" alt="tiendas" width="400">
+        <h2 class="titulosH2">Mapa de tiendas</h2>
+        <img src="images/mapa_tiendas.png" alt="tiendas" width="400" class="imagenes">
       </div>
     </section>
     <aside>
     </aside>
   </main>
+  <footer class="footerIndex">
+    <p>Panam --- Todos los derechos reservados</p>
+  </footer>
 </body>
 
 </html>
+
+<!--Comentario-->
