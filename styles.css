@@ -12,6 +12,8 @@ body {
   color: black;
   background-color: #68B984;
   padding: 10px;
+  overflow: hidden;
+  height: 100vh;
 }
 
 h1 {
@@ -68,6 +70,8 @@ li {
 
 .barraNav {
   text-align: right;
+  flex-direction: row;
+  margin-left: 400px;
 }
 
 .imagenes {
